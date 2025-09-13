@@ -306,11 +306,11 @@
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>C:\Project\F_Uzbekistan\PrijomObrasheniy(2.4)\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\Project\F_Uzbekistan\PrijomObrasheniy(2.4)\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>C:\Project\F_Uzbekistan\PrijomObrasheniy(2.4)\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>C:\Project\F_Uzbekistan\PrijomObrasheniy(2.4)\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -725,6 +725,10 @@
       <Project>{62ad34f3-d2c9-6f13-7db8-b6c86ae24d9b}</Project>
       <Name>Unity.2D.Common.Path.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="TextJuicer-Editor.csproj">
+      <Project>{d8407f0b-cd57-06eb-7530-6d07da8623e6}</Project>
+      <Name>TextJuicer-Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{937366c8-7601-ac03-127a-2ab18095b06a}</Project>
       <Name>Unity.Timeline.Editor</Name>
@@ -732,10 +736,6 @@
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{20c23c4e-4e9d-d974-c722-82042007d076}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="TextJuicer-Editor.csproj">
-      <Project>{d8407f0b-cd57-06eb-7530-6d07da8623e6}</Project>
-      <Name>TextJuicer-Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{f6fb23cd-006b-ef03-9e04-156dea27ae62}</Project>
