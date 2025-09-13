@@ -41,14 +41,23 @@ public class GameManager : MonoBehaviour
     
     private List<AnimTextClass> _animText = new List<AnimTextClass>();
     
+    public TMP_Text CountText;
+    
     private void Awake()
     {
         if(instance == null)
             instance = this;
+        //Screen.SetResolution(1920, 1080, true);
         if (Display.displays.Length > 1)
         {
+            //Debug.Log(Display.displays.Length);
+            //CountText.text = Display.displays.Length.ToString();
             Display.displays[1].Activate(); //Включаем второй дисплей. Он будет отображать камеры и канвасы которые помечены как Display2
+            
+            //Display.displays[1].SetParams(2160 , 3840, 0 , 0);
+            //Display.displays[0].SetParams(1920, 1080, 0 , 0);
         }
+        
     }
 
     void Start()
